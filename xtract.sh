@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# TODO
+# Bug: ./xtract.sh: строка 7: [: пропущен `]'
+# Happens after running the script. Bug is not fatel. 
+
 SLACKBUILD="$1"
 SOURCE="$2"
 SLACKBUILDNAME="$(basename $SLACKBUILD .tar.gz)"
